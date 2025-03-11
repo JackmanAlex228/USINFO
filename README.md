@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **U**nited **S**tates **I**nformation & **N**ational **FO**undation for Transparency (**USINFO**) is a proposed organization dedicated to enhancing transparency in the legislative process and amplifying civic participation nationwide. The goal is to create an open framework where citizens can easily access and understand government activities, policies, and decision-making processes.
+The **U**nited **S**tates **I**nformation & **N**ational **FO**undation for Transparency (**USINFO**) is a proposed framework dedicated to enhancing transparency in the legislative process and amplifying civic participation nationwide. The goal is to create an open framework where citizens can easily access and understand government activities, policies, and decision-making processes.
 
 ## Concept
 
