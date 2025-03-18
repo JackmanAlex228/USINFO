@@ -1,7 +1,7 @@
 # United States Information & National FOundation for Transparency (USINFO)
 
 ## Overview
-The **U**nited **S**tates **I**nformation & **N**ational **FO**undation for Transparency (**USINFO**) is a proposed unified informational framework designed to enhance civic participation and transparency for the user by using a "bottom-up" approach to displaying government information where day-to-day city functions are primarily focused. The goal is to create a free application where citizens can easily patriciate in municipal activities (such as city council meetings or ciy elections), utilize city services (such as permit processing or recycling information) and, in doing so, understand government activities, policies, and decision-making processes, from city-level to state and federal-level.
+The **U**nited **S**tates **I**nformation & **N**ational **FO**undation for Transparency (**USINFO**) is a proposed unified informational framework designed to enhance civic participation and transparency for the user by using a "bottom-up" approach to displaying government information where day-to-day city functions are primarily focused. The goal is to create a free application where citizens can easily patriciate in municipal activities (such as city council meetings or city elections), utilize city services (such as permit processing or recycling information) and, in doing so, understand government activities, policies, and decision-making processes, from city-level to state and federal-level.
 
 ## Features
 There would be a "base" version of the app which contains four screens and a "city" version of the app with an additional fifth screen. Two RSS screes, two directory screens, and a custom city screen.
@@ -21,12 +21,12 @@ Displays city officials and departments, as well as their duty and contact infor
 Displays state and federal officials and departments in much the same way as the City Directory screen (though preferably with structural visual distinctions to deter confusion). Examples of state-level officials and agencies include state legislators, federal congresspeople, the Governor/Attorney General, Department of Workforce Services, Department of Records and Archives, etc. This will also include federal-level information with information on local offices for such.
 
 ### Screen 5: City Functions (Optional)
-The key feature for this app is the ability for cities to make their own "skin" of the app, as well as employ a templated button with open-ended features which the city can themselves utilize. Will may involve utilizing a microservice with a web interface which cities can use to build and deploy their features. What features can be used depends on whether they'd actually work. For example, a permit processing feature might be possible, but requires knowledge on how payments for them can be processed in ways cities can easily implement on their own.
+The key feature for this app is the ability for cities to make their own "skin" of the app, as well as employ a templated button with open-ended features which the city can themselves utilize. May involve utilizing an external service with a web interface which cities can use to build and deploy their features. What features can be used depends on whether they'd actually work. For example, a permit processing feature might be possible, but requires knowledge on how payments for them can be processed in ways cities can easily implement on their own.
 
-The possibility of implementing the City Functions feature with its open-ended intentions in mind could be a major challenge, one which requires thorough research wih how cities might approach this features, as well as a tangible commitment to feature-decoupling, security, and maintainability.
+The possibility of implementing the City Functions feature with its open-ended intentions in mind could be a major challenge, one which requires thorough research on how cities might approach this features, as well as a tangible commitment to security, maintainability, and decoupling from the app's base features and overall fundamental design.
 
 ## Data Sources
-Although state and federal-level information is easy to obtain by utilizing pre-exiting sources such as Open States or Legistar, anything city-level will be challenging if the goal is to have a useable base app that anyone can use regardless of whether their city employed the City Functions feature. Data scrapping might be utilized.
+Although state and federal-level information is easy to obtain by utilizing pre-exiting sources such as Open States or Legistar, anything city-level will be challenging if the goal is to have a useable base app that anyone can use regardless of whether their city employed the City Functions feature. Data scrapping might be necessary.
 
 ## Tech Stack
 As of the latest commit, these are the planned languages and technologies that might be used:
