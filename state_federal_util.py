@@ -6,13 +6,13 @@ load_dotenv()
 API_KEY = os.getenv("OPENSTATES_API_KEY")
 BASE_URL = os.getenv("OPENSTATES_BASE_URL")
 
-"""
-  Get all the bills for a given state and session
-  :param state: The state abbreviation
-  :param session: The session year
-  :return: A JSON object with the bills
-"""
 def get_bills(state ="ut", session="2024"):
+  """
+    Get all the bills for a given state and session
+    :param state: The state abbreviation
+    :param session: The session year
+    :return: A JSON object with the bills
+  """
   url = f"{BASE_URL}/bills"
   params={
     "jurisdiction": state,
@@ -25,12 +25,12 @@ def get_bills(state ="ut", session="2024"):
   else:
     return {"error": response.status_code, "message": response.text}
   
-"""
-  Search for bills with a given query
-  :param query: The search query
-  :return: A JSON object with the bills
-"""
 def get_legislator(name):
+  """
+    Search for bills with a given query
+    :param query: The search query
+    :return: A JSON object with the bills
+  """
   url = f"{BASE_URL}/people"
   params={
     "q": name,
